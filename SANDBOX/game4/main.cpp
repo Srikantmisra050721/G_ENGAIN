@@ -367,7 +367,7 @@ int main() {
         }
     };
     
-    spawnLevel(3 + level);
+    spawnLevel(2 + int(level*1.5));
     
     Logger::getInstance().info("Entering main loop");
     
